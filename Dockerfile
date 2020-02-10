@@ -6,3 +6,4 @@ RUN touch /blabla.test
 
 CMD date > /blabla.test
 
+ENTRYPOINT ["tail", "-f", "/dev/null"]
