@@ -1,4 +1,4 @@
-FROM docker:stable
+FROM centos:7
 
 COPY toReadByDocker.txt /toReadByDocker.txt
 
