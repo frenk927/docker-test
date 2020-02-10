@@ -2,8 +2,8 @@ FROM centos:7
 
 COPY toReadByDocker.txt /toReadByDocker.txt
 
-RUN touch /blabla.test
+#RUN touch /blabla.test
 
-CMD date > /blabla.test
+#CMD date > /blabla.test
 
 ENTRYPOINT ["tail", "-f", "/dev/null"]
