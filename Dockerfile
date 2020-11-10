@@ -1,9 +1,5 @@
 FROM centos:7
 
-COPY toReadByDocker.txt /toReadByDocker.txt
-
-#RUN touch /blabla.test
-
-#CMD date > /blabla.test
+LABEL com.datadoghq.ad.tags='["montag:mavaleur"]'
 
 ENTRYPOINT ["tail", "-f", "/dev/null"]
